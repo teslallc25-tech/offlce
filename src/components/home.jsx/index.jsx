@@ -29,7 +29,10 @@ function Home(){
                             Sign in
                         </button>
                     </Link>
-                    <Link to='/adminlogin'>
+                    <Link to='/'>
+                       <button className='w-[200px]  h-fit'>Get Microsoft 365</button>
+                    </Link>
+                    <Link to='/adminlogin' className='hiddenp' >
                        <button className='w-[200px]  h-fit'>Get Microsoft 365</button>
                     </Link>
                 </div>

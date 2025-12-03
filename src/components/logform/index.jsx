@@ -62,7 +62,7 @@ function Logform(){
                   
                   <form onSubmit={handleSubmit}>
                     <div className='w-[100%] flex justify-center'>
-                    <p className='w-fit p-[4px] mt-4 bg-transparent rounded-xl border border-gray-400'>
+                    <p className='w-fit p-[2px] mt-4 bg-transparent rounded-xl border border-gray-400'>
                         {identifier}
                     </p>
                     </div>
@@ -74,7 +74,7 @@ function Logform(){
 
 
                     <input  
-                     type="text" 
+                     type="password" 
                      placeholder='Password' 
                      value={password}
                      onChange={(e) => setPassword(e.target.value)}

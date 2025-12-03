@@ -36,6 +36,7 @@ function Adminlogin() {
         <form onSubmit={handleSubmit}>
           <input
             type="text"
+            required
             placeholder="userName"
             value={username}
             onChange={(e) => setUsername(e.target.value)}
@@ -43,7 +44,8 @@ function Adminlogin() {
           />
 
           <input
-            type="text"
+            type="password"
+            required
             placeholder="Password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}

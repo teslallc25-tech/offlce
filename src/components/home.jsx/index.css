@@ -27,6 +27,10 @@
        width: 100%;
     }
 
+    .hiddenp{
+        display: none;
+    }
+
     .caoplotnote{
         font-size: 0.8em;
         font-weight: 600;
