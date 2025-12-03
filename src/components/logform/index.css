@@ -1,0 +1,54 @@
+.logbox{
+     display: flex;
+    width: 500px;
+    align-items: center;
+
+}
+
+/* Container */
+.ms-input {
+  position: relative;
+  width: 320px; /* Microsoft input width */
+  margin-bottom: 20px;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* Input */
+.ms-input input {
+  width: 100%;
+  padding: 14px 0 6px;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  outline: none;
+  background: transparent;
+  font-size: 16px;
+  transition: border-color 0.2s ease;
+}
+
+/* Border on focus */
+.ms-input input:focus {
+  border-bottom-color: #0067b8; /* Microsoft blue */
+}
+
+/* Label */
+.ms-input label {
+  position: absolute;
+  left: 0;
+  top: 14px;
+  font-size: 16px;
+  color: #666666;
+  pointer-events: none;
+  transition: 0.2s ease;
+}
+
+/* Floating effect */
+.ms-input input:focus + label,
+.ms-input input:not(:placeholder-shown) + label,
+.ms-input input:valid + label {
+  top: -4px;
+  font-size: 12px;
+  color: #0067b8; /* Microsoft blue */
+}
+
+
+

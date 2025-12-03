@@ -1,0 +1,14 @@
+.logbox{
+     display: flex;
+    width: 500px;
+    align-items: center;
+
+}
+
+
+@media (max-width: 600px){
+    .logbox{
+        width: 80%;
+
+    }
+}

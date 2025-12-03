@@ -1,0 +1,22 @@
+.divcontainer{
+    width: 100%;
+    height: fit-content;
+
+}
+
+.divbox{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 40px;
+    border-radius: 5px;
+}
+.frm{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 40px;
+    border-radius: 5px;
+}

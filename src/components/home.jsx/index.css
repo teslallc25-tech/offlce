@@ -1,0 +1,36 @@
+.btnbox{
+    display: flex;
+    flex-wrap: wrap;
+    width: 89%;
+    justify-content: center;
+    align-items: center;
+}
+
+.ponlarge{
+    width: 600px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.caoplotnote{
+    font-weight: 600;
+    font-size: 1.3em;
+    background: linear-gradient(90deg, #F25022, #D83B01, #5C2D91, #0078D4, #7FBA00); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@media (max-width: 600px) {
+    .ponlarge {
+       width: 100%;
+    }
+
+    .caoplotnote{
+        font-size: 0.8em;
+        font-weight: 600;
+
+
+    }
+}
