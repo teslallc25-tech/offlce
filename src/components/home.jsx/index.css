@@ -13,6 +13,11 @@
     text-align: center;
 }
 
+.hiddenp{
+        display: none;
+    }
+
+
 
 .caoplotnote{
     font-weight: 600;
