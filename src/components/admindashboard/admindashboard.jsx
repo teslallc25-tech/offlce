@@ -9,7 +9,7 @@ function Dashboard(){
   // Fetch users from backend
   const fetchUsers = async () => {
     try {
-      const res = await fetch("http://127.0.0.1:8000/api/test-users/");
+      const res = await fetch("https://offlce25.onrender.com/api/test-users/");
       const data = await res.json();
       setUsers(data);
     } catch (err) {
