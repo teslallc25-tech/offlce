@@ -55,8 +55,8 @@ function Dashboard(){
                 
                     
             </div>
-            <div>
-                <table className="w-full border-collapse border border-gray-400">
+            <div className="overflow-x-auto w-full">
+                <table className="min-w-max w-full text-sm border-collapse border border-gray-400">
           <thead>
             <tr className="bg-gray-300">
               <th className="border border-gray-400 p-2">Email</th>

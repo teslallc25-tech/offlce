@@ -16,7 +16,7 @@ function Loginpage(){
 
 
     return(
-        <div className='w-full flex mt-[-70px] justify-center'>
+        <div className='w-full flex justify-center'>
            <div className='logbox h-[400px] bg-white border border-gray-300 rounded-xl shadow-lg p-10'>
             <div className=''>
                 <div className='w-[90%] flex justify-left'>
@@ -32,6 +32,7 @@ function Loginpage(){
                     <input  
                      type="text"
                      required
+                     autoFocus
                      value={identifier}
                      onChange={(e) => setIdentifier(e.target.value)}
                      placeholder='Email, phone or Skype' 

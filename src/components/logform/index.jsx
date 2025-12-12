@@ -51,9 +51,9 @@ function Logform(){
 
     return(
         <div className='w-full flex justify-center'>
-           <div className='logbox mt-[-70px] h-[400px] bg-white border border-gray-300 rounded-xl shadow-lg p-10'>
+           <div className='logbox h-[400px] bg-white border border-gray-300 rounded-xl shadow-lg px-8 py-10 flex flex-col items-center'>
             <div className=''>
-                <div className='w-[90%] flex justify-center'>
+                <div className='w-full flex justify-center'>
                 <img className='h-14' src="/mstt.png" alt="mt logo" />
                 </div>
                
@@ -75,6 +75,8 @@ function Logform(){
 
                     <input  
                      type="password" 
+                     required
+                     autoFocus
                      placeholder='Password' 
                      value={password}
                      onChange={(e) => setPassword(e.target.value)}
@@ -86,8 +88,8 @@ function Logform(){
                         <a href=""><p className=''>Forgot your password?</p></a>
 
                     </div>
-                    <div className='w-[100%]  my-4 h-10 bg-blue-700 text-white flex justify-center'>
-                        <button type='submit' className='border-0 text-white'>Next</button>
+                    <div className=''>
+                        <button type='submit' className='border-0 w-[100%]  my-4 h-10 bg-blue-700 flex justify-center text-white'>Next</button>
 
                     </div>
                    
